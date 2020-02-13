@@ -19,6 +19,8 @@ public class BlockRuby extends Block {
         setHarvestLevel("pickaxe",3);/** The level of material this tool can harvest (3 = DIAMOND, 2 = IRON, 1 = STONE, 0 = WOOD/GOLD) */
 
 
+
+        //I am testing stuff
         //Registry stuff
         setUnlocalizedName("block_ruby");
         setRegistryName("block_ruby");
