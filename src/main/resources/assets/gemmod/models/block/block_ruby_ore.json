@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gemmod:blocks/ruby_stuff/block_ruby_ore",
+    "up": "gemmod:blocks/ruby_stuff/block_ruby_ore",
+    "north": "gemmod:blocks/ruby_stuff/block_ruby_ore",
+    "east": "gemmod:blocks/ruby_stuff/block_ruby_ore",
+    "south": "gemmod:blocks/ruby_stuff/block_ruby_ore",
+    "west": "gemmod:blocks/ruby_stuff/block_ruby_ore",
+    "particle": "gemmod:blocks/ruby_stuff/block_ruby_ore"
+  }
+
+}

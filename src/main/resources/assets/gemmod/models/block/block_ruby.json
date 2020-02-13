@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gemmod:blocks/ruby_stuff/block_ruby",
+    "up": "gemmod:blocks/ruby_stuff/block_ruby",
+    "north": "gemmod:blocks/ruby_stuff/block_ruby",
+    "east": "gemmod:blocks/ruby_stuff/block_ruby",
+    "south": "gemmod:blocks/ruby_stuff/block_ruby",
+    "west": "gemmod:blocks/ruby_stuff/block_ruby",
+    "particle": "gemmod:blocks/ruby_stuff/block_ruby"
+  }
+
+}

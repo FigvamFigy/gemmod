@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gemmod",
+  "name": "Gem Mod",
+  "description": "Learning how to mod Minecraft",
+  "version": "1.0",
+  "mcversion": "1.12",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["figvam_II,redrar"],
+  "credits": "Google. Like dude. Google is the answer to everything",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
