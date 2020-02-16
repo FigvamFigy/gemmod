@@ -2,3 +2,5 @@ item.ruby.name=Ruby
 tile.block_ruby.name=Block of Ruby
 tile.block_ruby_ore.name=Ruby Ore
 tile.block_jar.name=Cookie Jar
+item.ruby_axe.name=Ruby Axe
+item.ruby_sword.name=Ruby Sword
