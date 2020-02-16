@@ -20,7 +20,8 @@ public class ItemModList {
         ItemRubyAxe.getInstance(),//Ruby Axe
         ItemRubySword.getInstance(),//Ruby Sword
         ItemRubyHoe.getInstance(),//Ruby Hoe
-        ItemRubyShovel.getInstance()//Ruby Shovel
+        ItemRubyShovel.getInstance(),//Ruby Shovel
+        ItemRubyPickaxe.getInstance()//Ruby Pickaxe
     };
 
 
