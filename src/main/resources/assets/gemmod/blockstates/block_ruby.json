@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "gemmod:block_ruby" }
+    "normal": { "model": "gemmod:ruby_stuff/block_ruby" }
   }
 }

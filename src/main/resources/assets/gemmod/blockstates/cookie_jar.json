@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+
+  "variants": {
+    "facing=north,open=false": { "model": "gemmod:cookie_jar/cookie_jar_closed","north": true, "south": false,"west": false,"east": false,"hastoast":false, "y": 270},
+    "facing=north,open=true": { "model": "gemmod:cookie_jar/cookie_jar_open","north": true, "south": false,"west": false,"east": false,"hastoast":true, "y": 270},
+    "facing=south,open=false": { "model": "gemmod:cookie_jar/cookie_jar_closed","north": false, "south": true,"west": false,"east": false,"hastoast":false, "y": 90},
+    "facing=south,open=true": { "model": "gemmod:cookie_jar/cookie_jar_open","north": false, "south": true,"west": false,"east": false,"hastoast":true, "y": 90},
+    "facing=west,open=false":  { "model": "gemmod:cookie_jar/cookie_jar_closed","north": false, "south": false,"west": true,"east": false,"hastoast":false, "y": 180},
+    "facing=west,open=true":  { "model": "gemmod:cookie_jar/cookie_jar_open","north": false, "south": false,"west": true,"east": false,"hastoast":true, "y": 180},
+    "facing=east,open=false":  { "model": "gemmod:cookie_jar/cookie_jar_closed","north": false, "south": false,"west": false,"east": true,"hastoast":false, "y": 0},
+    "facing=east,open=true":  { "model": "gemmod:cookie_jar/cookie_jar_open","north": false, "south": false,"west": false,"east": true,"hastoast":true, "y": 0},
+    "facing=up,open=false":  { "model": "gemmod:cookie_jar/cookie_jar_closed","north": false, "south": false,"west": false,"east": false,"hastoast":false},
+    "facing=up,open=true":  { "model": "gemmod:cookie_jar/cookie_jar_open","north": false, "south": false,"west": false,"east": false,"hastoast":true},
+    "facing=down,open=false":  { "model": "gemmod:cookie_jar/cookie_jar_closed","north": false, "south": false,"west": false,"east": false,"hastoast":false},
+    "facing=down,open=true":  { "model": "gemmod:cookie_jar/cookie_jar_open","north": false, "south": false,"west": false,"east": false,"hastoast":true}
+  }
+}

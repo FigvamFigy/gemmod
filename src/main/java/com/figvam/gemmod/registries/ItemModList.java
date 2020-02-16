@@ -1,5 +1,6 @@
 package com.figvam.gemmod.registries;
 
+import com.figvam.gemmod.items.itemBlocks.cookieJar.ItemBlockCookieJar;
 import com.figvam.gemmod.items.itemBlocks.ruby.ItemBlockRuby;
 import com.figvam.gemmod.items.itemBlocks.ruby.ItemBlockRubyOre;
 import com.figvam.gemmod.items.ruby.ItemRuby;
@@ -14,7 +15,8 @@ public class ItemModList {
         //Ruby
         ItemRuby.getInstance(),//Ruby
         ItemBlockRuby.getInstance(),//Block of Ruby
-        ItemBlockRubyOre.getInstance()//Ruby ore
+        ItemBlockRubyOre.getInstance(),//Ruby ore
+        ItemBlockCookieJar.getInstance()//Cookie jar
 
     };
 
