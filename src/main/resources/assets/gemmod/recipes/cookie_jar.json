@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "www",
+    "g g",
+    "ggg"
+  ],
+  "key":
+  {
+    "w":[
+
+      {
+        "item": "minecraft:planks",
+        "data": 0
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 1
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 2
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 3
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 4
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 5
+      }
+    ],
+
+    "g":
+    {
+      "item": "minecraft:glass",
+      "data": 0
+    }
+  },
+
+  "result":
+  {
+    "item":"gemmod:cookie_jar",
+    "count": 1
+  }
+}
