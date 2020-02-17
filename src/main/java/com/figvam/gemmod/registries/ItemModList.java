@@ -24,7 +24,8 @@ public class ItemModList {
         ItemRubyPickaxe.getInstance(),//Ruby Pickaxe
         ItemRubyHelmet.getInstance(),//Ruby Helmet
         ItemRubyChestplate.getInstance(),//RubyChestplate
-        ItemRubyLeggings.getInstance()//Ruby Leggings
+        ItemRubyLeggings.getInstance(),//Ruby Leggings
+        ItemRubyBoots.getInstance()//Ruby Boots
     };
 
 
