@@ -22,7 +22,9 @@ public class ItemModList {
         ItemRubyHoe.getInstance(),//Ruby Hoe
         ItemRubyShovel.getInstance(),//Ruby Shovel
         ItemRubyPickaxe.getInstance(),//Ruby Pickaxe
-        ItemRubyHelmet.getInstance()//Ruby Helmet
+        ItemRubyHelmet.getInstance(),//Ruby Helmet
+        ItemRubyChestplate.getInstance(),//RubyChestplate
+        ItemRubyLeggings.getInstance()//Ruby Leggings
     };
 
 
