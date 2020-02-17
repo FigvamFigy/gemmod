@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "mm ",
+    "ms ",
+    " s "
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "gemmod:ruby",
+      "data": 0
+    },
+
+    "s":
+    {
+      "item": "minecraft:stick",
+      "data": 0
+    }
+
+  },
+  "result":
+  {
+    "item":"gemmod:ruby_axe",
+    "count": 1
+  }
+}
