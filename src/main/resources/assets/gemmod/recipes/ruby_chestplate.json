@@ -2,28 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    " mm",
-    " sm",
-    " s "
+    "r r",
+    "rrr",
+    "rrr"
   ],
   "key":
   {
-    "m":
+    "r":
     {
       "item": "gemmod:ruby",
-      "data": 0
-    },
-
-    "s":
-    {
-      "item": "minecraft:stick",
       "data": 0
     }
 
   },
   "result":
   {
-    "item":"gemmod:ruby_axe",
+    "item":"gemmod:ruby_chestplate",
     "count": 1
   }
 }
