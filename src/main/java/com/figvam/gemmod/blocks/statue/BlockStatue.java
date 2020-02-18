@@ -48,4 +48,14 @@ public class BlockStatue extends Block {
     public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos) {
         return STATUE_AABB;
     }
+
+    @Override
+    public boolean isOpaqueCube(IBlockState state){
+        return false;
+    }
+
+    @Override
+    public boolean isFullCube(IBlockState state){
+        return false;
+    }
 }
