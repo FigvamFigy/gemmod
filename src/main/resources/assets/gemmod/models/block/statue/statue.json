@@ -1,0 +1,298 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "stone": "minecraft:blocks/stone",
+        "particle": "minecraft:blocks/stone"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 0, 0, 1 ], 
+            "to": [ 16, 8, 15 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 16, 8 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 14, 8 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 16, 8 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 14, 8 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 16, 14 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 1, 16, 15 ] }
+            }
+        },
+        {
+            "name": "Base Outer N",
+            "from": [ 1, 0, 0 ], 
+            "to": [ 15, 8, 1 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 14, 8 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 1, 8 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 1, 8 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 14, 1 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "Base Outer S",
+            "from": [ 1, 0, 15 ], 
+            "to": [ 15, 8, 16 ], 
+            "faces": {
+                "east": { "texture": "#stone", "uv": [ 0, 0, 1, 8 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 14, 8 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 1, 8 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 14, 1 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "Lower Leg L",
+            "from": [ 8, 8, 8 ], 
+            "to": [ 14, 12, 12 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] }
+            }
+        },
+        {
+            "name": "Upper Leg L",
+            "from": [ 6, 10, 8 ], 
+            "to": [ 10, 16, 12 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "Lower Leg R",
+            "from": [ 2, 8, 4 ], 
+            "to": [ 6, 14, 8 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "Upper Leg R",
+            "from": [ 4, 12, 4 ], 
+            "to": [ 10, 16, 8 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] }
+            }
+        },
+        {
+            "name": "Torso",
+            "from": [ 6, 16, 4 ], 
+            "to": [ 10, 28, 12 ], 
+            "faces": {
+                "east": { "texture": "#stone", "uv": [ 0, 0, 8, 12 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 4, 12 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 8, 12 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 4, 8 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 4, 8 ] }
+            }
+        },
+        {
+            "name": "Arm R",
+            "from": [ 6, 16, 0 ], 
+            "to": [ 10, 28, 4 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 4, 12 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 4, 12 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 4, 12 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "Upper Arm R",
+            "from": [ 6, 22, 12 ], 
+            "to": [ 10, 28, 16 ], 
+            "faces": {
+                "east": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 4, 6 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "Lower Leg L",
+            "from": [ 2, 20, 12 ], 
+            "to": [ 8, 24, 16 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 4, 4 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 6, 4 ] }
+            }
+        },
+        {
+            "name": "Sword Handle",
+            "from": [ 3, 19, 13 ], 
+            "to": [ 5, 26, 15 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Sword Pummel",
+            "from": [ 3, 25, 13 ], 
+            "to": [ 5, 27, 15 ], 
+            "rotation": { "origin": [ 4, 26, 14 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Sword Blade",
+            "from": [ 2, 8, 13 ], 
+            "to": [ 6, 18, 15 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 4, 10 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 10 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 4, 10 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 10 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] }
+            }
+        },
+        {
+            "name": "Sword Hilt L",
+            "from": [ 0, 18, 13 ], 
+            "to": [ 4, 20, 15 ], 
+            "rotation": { "origin": [ 4, 19, 14 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] }
+            }
+        },
+        {
+            "name": "Sword Hilt L",
+            "from": [ 4, 18, 13 ], 
+            "to": [ 8, 20, 15 ], 
+            "rotation": { "origin": [ 4, 19, 14 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 4, 2 ] }
+            }
+        },
+        {
+            "name": "Torso",
+            "from": [ 4, 28, 4 ], 
+            "to": [ 12, 32, 12 ],
+            "rotation": { "origin": [ 9, 28, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 8, 8 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 8, 8 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 8, 8 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 8, 8 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 8, 8 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 8, 8 ] }
+            }
+        },
+        {
+            "name": "Pickaxe Handle",
+            "from": [ 2, 17, 1 ], 
+            "to": [ 15, 19, 3 ], 
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 13, 2 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 13, 2 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 13, 2 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 13, 2 ] }
+            }
+        },
+        {
+            "name": "Pickaxe Head T",
+            "from": [ 1, 17, 1 ], 
+            "to": [ 3, 24, 3 ], 
+            "rotation": { "origin": [ 3, 18, 2 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Pickaxe Head B",
+            "from": [ 1, 12, 1 ], 
+            "to": [ 3, 19, 3 ], 
+            "rotation": { "origin": [ 3, 18, 2 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "east": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "south": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "west": { "texture": "#stone", "uv": [ 0, 0, 2, 7 ] },
+                "up": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#stone", "uv": [ 0, 0, 2, 2 ] }
+            }
+        }
+    ]
+}
