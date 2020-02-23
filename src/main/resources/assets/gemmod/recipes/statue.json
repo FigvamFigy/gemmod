@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " s ",
+    "sss",
+    "s s"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "minecraft:stone",
+      "data": 0
+    }
+
+  },
+  "result":
+  {
+    "item":"gemmod:statue",
+    "count": 1
+  }
+}

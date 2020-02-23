@@ -19,6 +19,7 @@ import net.minecraft.world.World;
 import javax.annotation.Nullable;
 
 public class BlockStatue extends Block {
+    //TODO Split the BlockStatue into two sections so that it will actually be two blocks tall
 
 
     private static final AxisAlignedBB STATUE_AABB = new AxisAlignedBB(0,0,0,1,2,1);
