@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import oreGeneration.BlockGen;
 
 @Mod(modid = ModDetails.MOD_ID, name = ModDetails.MOD_NAME, version = ModDetails.MOD_VERSION)
 public class GemmodMain {
@@ -23,6 +24,7 @@ public class GemmodMain {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
+        GameRegistry.registerWorldGenerator(BlockGen.getInstance(),3);
     }
 
     @Mod.EventHandler
