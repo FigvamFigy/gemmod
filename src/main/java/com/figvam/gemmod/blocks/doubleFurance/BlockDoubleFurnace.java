@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 public class BlockDoubleFurnace extends Block {
 
-
+//Test
 
     private static BlockDoubleFurnace instance = null;
 
