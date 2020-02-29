@@ -1,6 +1,7 @@
 package com.figvam.gemmod;
 
 
+import com.figvam.gemmod.blocks.doubleFurance.DoubleFurnaceTileEntity;
 import com.figvam.gemmod.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -25,6 +26,7 @@ public class GemmodMain {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         GameRegistry.registerWorldGenerator(BlockGen.getInstance(),3);
+        GameRegistry.registerTileEntity(DoubleFurnaceTileEntity.class,"gemmod:double_furnace_tile_entity");
     }
 
     @Mod.EventHandler

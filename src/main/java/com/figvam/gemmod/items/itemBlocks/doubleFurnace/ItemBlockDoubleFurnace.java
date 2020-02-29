@@ -1,8 +1,6 @@
 package com.figvam.gemmod.items.itemBlocks.doubleFurnace;
 
 import com.figvam.gemmod.blocks.doubleFurance.BlockDoubleFurnace;
-import com.figvam.gemmod.blocks.ruby.BlockRuby;
-import com.figvam.gemmod.items.itemBlocks.ruby.ItemBlockRuby;
 import net.minecraft.item.ItemBlock;
 
 public class ItemBlockDoubleFurnace extends ItemBlock {
