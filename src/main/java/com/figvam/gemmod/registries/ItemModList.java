@@ -1,6 +1,7 @@
 package com.figvam.gemmod.registries;
 
 import com.figvam.gemmod.items.itemBlocks.cookieJar.ItemBlockCookieJar;
+import com.figvam.gemmod.items.itemBlocks.doubleFurnace.ItemBlockDoubleFurnace;
 import com.figvam.gemmod.items.itemBlocks.ruby.ItemBlockRuby;
 import com.figvam.gemmod.items.itemBlocks.ruby.ItemBlockRubyOre;
 import com.figvam.gemmod.items.itemBlocks.statue.ItemBlockStatue;
@@ -27,7 +28,8 @@ public class ItemModList {
         ItemRubyChestplate.getInstance(),//RubyChestplate
         ItemRubyLeggings.getInstance(),//Ruby Leggings
         ItemRubyBoots.getInstance(),//Ruby Boots
-        ItemBlockStatue.getInstance()//Statue
+        ItemBlockStatue.getInstance(),//Statue
+        ItemBlockDoubleFurnace.getInstance()//Double furnace
     };
 
 

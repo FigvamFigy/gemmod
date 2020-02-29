@@ -2,6 +2,7 @@ package com.figvam.gemmod.registries;
 
 
 import com.figvam.gemmod.blocks.cookieJar.BlockCookieJar;
+import com.figvam.gemmod.blocks.doubleFurance.BlockDoubleFurnace;
 import com.figvam.gemmod.blocks.ruby.BlockRuby;
 import com.figvam.gemmod.blocks.ruby.BlockRubyOre;
 import com.figvam.gemmod.blocks.statue.BlockStatue;
@@ -17,7 +18,8 @@ public class BlockModList {
             BlockRuby.getInstance(),//Block of Ruby
             BlockRubyOre.getInstance(),//Ruby ore
             BlockCookieJar.getInstance(),//Cookie jar
-            BlockStatue.getInstance()//Statue
+            BlockStatue.getInstance(),//Statue
+            BlockDoubleFurnace.getInstance()//Double Furnace
     };
 
 
