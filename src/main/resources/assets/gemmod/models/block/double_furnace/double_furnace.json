@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gemmod:blocks/double_furnace_stuff/furnace_side",
+    "up": "gemmod:blocks/double_furnace_stuff/furnace_top",
+    "north": "gemmod:blocks/double_furnace_stuff/furnace_side",
+    "east": "gemmod:blocks/double_furnace_stuff/furnace_side",
+    "south": "gemmod:blocks/double_furnace_stuff/furnace_front",
+    "west": "gemmod:blocks/double_furnace_stuff/furnace_side",
+    "particle": "gemmod:blocks/double_furnace_stuff/furnace_side"
+  }
+
+}

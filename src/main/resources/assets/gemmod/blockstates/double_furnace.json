@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "gemmod:double_furnace/double_furnace" }
+  }
+}
