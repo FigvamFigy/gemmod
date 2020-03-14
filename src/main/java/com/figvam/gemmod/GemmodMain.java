@@ -1,15 +1,19 @@
 package com.figvam.gemmod;
 
 
+import com.figvam.gemmod.blocks.doubleFurance.BlockDoubleFurnace;
 import com.figvam.gemmod.blocks.doubleFurance.DoubleFurnaceTileEntity;
 import com.figvam.gemmod.proxy.CommonProxy;
+import com.figvam.gemmod.util.GuiHandler;
+import net.minecraft.block.BlockFurnace;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import oreGeneration.BlockGen;
+import com.figvam.gemmod.oreGeneration.BlockGen;
 
 @Mod(modid = ModDetails.MOD_ID, name = ModDetails.MOD_NAME, version = ModDetails.MOD_VERSION)
 public class GemmodMain {
@@ -26,12 +30,15 @@ public class GemmodMain {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         GameRegistry.registerWorldGenerator(BlockGen.getInstance(),3);
-        GameRegistry.registerTileEntity(DoubleFurnaceTileEntity.class,"gemmod:double_furnace_tile_entity");
+        GameRegistry.registerTileEntity(DoubleFurnaceTileEntity.class,"gemmod:tile_entity_double_furnace");
+
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
         commonProxy.init(event);
+        //NetworkRegistry.INSTANCE.registerGuiHandler(GemmodMain.instance, new GuiHandler());
+        //NetworkRegistry.INSTANCE.registerGuiHandler(BlockDoubleFurnace.getInstance(), new GuiHandler());
     }
 
     @Mod.EventHandler

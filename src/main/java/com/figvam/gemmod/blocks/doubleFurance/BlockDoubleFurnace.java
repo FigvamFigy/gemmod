@@ -1,6 +1,8 @@
 package com.figvam.gemmod.blocks.doubleFurance;
 
 
+import com.figvam.gemmod.GemmodMain;
+import com.figvam.gemmod.util.GuiResource;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -58,13 +60,16 @@ public class BlockDoubleFurnace extends Block {
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if(!worldIn.isRemote){//This says, if the side is the PHYSICAL SERVER, NOT ANY CLIENTS, then do logic
-            DoubleFurnaceTileEntity tile = DoubleFurnaceTileEntity.getTileEntity(worldIn,pos);
+//            DoubleFurnaceTileEntity tile = DoubleFurnaceTileEntity.getTileEntity(worldIn,pos);
+//
+//            tile.incrementCount();
+//            playerIn.sendMessage(new TextComponentString("Count: " + tile.getCount()));
 
-            //DoubleFurnaceTileEntity tile = (DoubleFurnaceTileEntity)worldIn.getTileEntity(pos);
-            tile.incrementCount();
-            playerIn.sendMessage(new TextComponentString("Count: " + tile.getCount()));
+            //playerIn.openGui(GemmodMain.instance,GuiResource.GUI_TEST,worldIn,pos.getX(),pos.getY(),pos.getZ());
+
 
         }
+        playerIn.openGui(GemmodMain.instance,GuiResource.GUI_TEST,worldIn,pos.getX(),pos.getY(),pos.getZ());
 
 
         return true;
