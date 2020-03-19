@@ -70,8 +70,7 @@ public class BlockRubyChest extends Block {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        //return super.createTileEntity(world, state);
-        return TileEntityRubyChest.getInstance();
+        return new TileEntityRubyChest();
     }
 
 }

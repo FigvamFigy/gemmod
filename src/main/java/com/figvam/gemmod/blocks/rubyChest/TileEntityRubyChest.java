@@ -12,7 +12,7 @@ public class TileEntityRubyChest extends TileEntity {
 
     int count;
 
-    private TileEntityRubyChest(){
+    public TileEntityRubyChest(){
         super();
         this.count = 0;
     }
@@ -39,8 +39,10 @@ public class TileEntityRubyChest extends TileEntity {
 
     @Override
     public void readFromNBT(NBTTagCompound compound) {
-        super.readFromNBT(compound);
+
         count = compound.getInteger("count");
+        super.readFromNBT(compound);
+
 
     }
     public int getCount(){
