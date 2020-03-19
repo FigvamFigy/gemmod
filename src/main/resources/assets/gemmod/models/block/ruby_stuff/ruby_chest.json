@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gemmod:blocks/ruby_stuff/ruby_chest/ruby_chest",
+    "up": "gemmod:blocks/ruby_stuff/ruby_chest/ruby_chest",
+    "north": "gemmod:blocks/ruby_stuff/ruby_chest/ruby_chest",
+    "east": "gemmod:blocks/ruby_stuff/ruby_chest/ruby_chest",
+    "south": "gemmod:blocks/ruby_stuff/ruby_chest/ruby_chest",
+    "west": "gemmod:blocks/ruby_stuff/ruby_chest/ruby_chest",
+    "particle": "gemmod:blocks/ruby_stuff/ruby_chest/ruby_chest"
+  }
+
+}

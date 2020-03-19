@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "gemmod:ruby_stuff/ruby_chest" }
+  }
+}
