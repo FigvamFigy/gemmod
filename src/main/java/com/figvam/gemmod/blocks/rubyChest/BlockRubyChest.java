@@ -12,6 +12,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
@@ -44,8 +45,14 @@ public class BlockRubyChest extends Block {
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if(!worldIn.isRemote){
-            System.out.println("onblockactivated");
             playerIn.openGui(GemmodMain.instance, GuiReference.RUBY_CHEST_GUI_ID,worldIn,pos.getX(),pos.getY(),pos.getZ());
+
+            TileEntityRubyChest tile = TileEntityRubyChest.getTileEntity(worldIn,pos);
+
+            tile.incrementCount();
+            playerIn.sendMessage(new TextComponentString("Count: " + tile.getCount()));
+
+
         }
 
 
