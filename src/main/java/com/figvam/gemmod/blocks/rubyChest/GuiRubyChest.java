@@ -38,9 +38,9 @@ public class GuiRubyChest extends GuiContainer {
         int middleY = (height / 2) - (ySize / 2);
 
         //xSize = 176;
-        //ySize = 165;
+        ySize = 170;
 
-        this.drawTexturedModalRect(middleX,middleY,0,0,this.xSize,this.ySize);
+        this.drawTexturedModalRect(middleX,middleY,0,0,this.xSize,ySize);
     }
 
 

@@ -18,7 +18,6 @@ public class GuiHandler implements IGuiHandler {
     @Nullable
     @Override
     public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
-        System.out.println("getserver");
         if(!world.isRemote){
             if(ID == GuiReference.RUBY_CHEST_GUI_ID){
                 return new ContainerRubyChest(player.inventory,(TileEntityRubyChest)world.getTileEntity(new BlockPos(x,y,z)));
@@ -31,8 +30,6 @@ public class GuiHandler implements IGuiHandler {
     @Nullable
     @Override
     public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
-
-        System.out.println("getCleintgui");
         if(ID == GuiReference.RUBY_CHEST_GUI_ID){
 
             return new GuiRubyChest(player.inventory,(TileEntityRubyChest)world.getTileEntity(new BlockPos(x,y,z)));
