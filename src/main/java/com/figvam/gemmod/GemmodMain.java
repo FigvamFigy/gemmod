@@ -1,6 +1,7 @@
 package com.figvam.gemmod;
 
 
+import com.figvam.gemmod.blocks.rubyChest.TileEntityRubyChest;
 import com.figvam.gemmod.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -25,6 +26,8 @@ public class GemmodMain {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         GameRegistry.registerWorldGenerator(BlockGen.getInstance(),3);
+        GameRegistry.registerTileEntity(TileEntityRubyChest.class,"gemmod:tile_entity_ruby_chest");
+
     }
 
     @Mod.EventHandler

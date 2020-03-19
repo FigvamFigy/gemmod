@@ -1,6 +1,8 @@
 package com.figvam.gemmod.blocks.rubyChest;
 
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.network.NetworkManager;
+import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
@@ -88,7 +90,6 @@ public class TileEntityRubyChest extends TileEntity {
         }
         return super.getCapability(capability, facing);
     }
-
 
 
 
