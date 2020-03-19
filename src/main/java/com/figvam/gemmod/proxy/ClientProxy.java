@@ -16,6 +16,7 @@ public class ClientProxy extends CommonProxy{
     //Init
     @Override
     public void init(FMLInitializationEvent event){
+        super.init(event);
     }
 
     //PostInit
